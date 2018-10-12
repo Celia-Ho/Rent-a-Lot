@@ -10,7 +10,7 @@ import Register from './pages/Register';
 import Newspot from './pages/Newspot';
 import Spot from './pages/Spot';
 import Editspot from './pages/Editspot';
-import MapContainer from './components/MapContainer';
+// import MapContainer from './components/MapContainer';
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 // import NoMatch from "./pages/NoMatch";

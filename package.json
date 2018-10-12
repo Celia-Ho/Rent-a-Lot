@@ -13,11 +13,13 @@
     "morgan": "^1.9.0",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
+    "react-geocode": "^0.1.2",
+    "react-google-maps": "^9.4.5",
     "serve-favicon": "^2.5.0"
   },
   "scripts": {
     "start": "node ./bin/www",
-    "build": "react-scripts build",
+    "build": "cd client && npm run build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "seed": "node scripts/seedDB.js"
