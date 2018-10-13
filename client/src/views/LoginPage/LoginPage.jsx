@@ -84,7 +84,6 @@ class LoginPage extends React.Component {
     const { classes, ...rest } = this.props;
     return (
       <div>
-        <Link to="/">
           <Header
             absolute
             color="transparent"
@@ -92,7 +91,6 @@ class LoginPage extends React.Component {
             rightLinks={<HeaderLinks />}
             {...rest}
           />
-        </Link>
         <div
           className={classes.pageHeader}
           style={{

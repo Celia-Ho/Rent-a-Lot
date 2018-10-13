@@ -130,7 +130,6 @@ class Listing extends Component {
 
     return (
       <main>
-        <Link to="/">
           <Header
             brand="Rent-a-Lot"
             rightLinks={<HeaderLinks />}
@@ -142,13 +141,13 @@ class Listing extends Component {
             }}
             {...rest}
           />
-        </Link>
         <div className="container">
           <div id="map"></div>
           <div className="panel panel-default">
             <div className="panel-heading">
               <h3 className="panel-title">
                 PARKING SPOTS LISTING &nbsp;
+                <br></br>
               <Link className="btn btn-primary" to={`/spot/new`}>
                   Add New Spot
             </Link>

@@ -57,7 +57,6 @@ class Spot extends Component {
     const { classes, ...rest } = this.props;
     return (
       <div>
-        <Link to="/">
           <Header
             brand="Rent-a-Lot"
             rightLinks={<HeaderLinks />}
@@ -69,7 +68,6 @@ class Spot extends Component {
             }}
             {...rest}
           />
-        </Link>
         <Parallax small filter image={require("assets/img/bg.jpg")} />
 
         <div className={classNames(classes.main, classes.mainRaised)}>

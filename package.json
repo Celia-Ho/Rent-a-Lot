@@ -13,6 +13,8 @@
     "morgan": "^1.9.0",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
     "react-geocode": "^0.1.2",
     "react-google-maps": "^9.4.5",
     "serve-favicon": "^2.5.0"
