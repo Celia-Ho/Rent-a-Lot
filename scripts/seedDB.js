@@ -3,15 +3,16 @@ const Spot = require("../models/Spot.js");
 
 // This file empties the Spots collection and inserts the spots below
 
+// Deployed database on Heroku
+var MONGODB_URI = "mongodb://heroku_fgttlnqz:9o5srl06v87l6ut5vhsump70oc@ds231133.mlab.com:31133/heroku_fgttlnqz";
 mongoose.connect(
-  process.env.MONGODB_URI ||
-  "mongodb://localhost/parkingspotslisting"
-);
+  process.env.MONGODB_URI || MONGODB_URI);
+
 
 const spotSeed = [
-  {                                                              
+  {
     address: "32 ACACIA RD, Toronto, Ontario",
-    postalcode:  "N/A",
+    postalcode: "N/A",
     price: "$10",
     type: "Widened Driveway",
     description: "Single",
@@ -19,7 +20,7 @@ const spotSeed = [
   },
   {
     address: "60 BABY POINT RD, Toronto, Ontario",
-    postalcode:  "N/A",
+    postalcode: "N/A",
     price: "$13",
     type: "Front yard",
     description: "Single",
@@ -27,7 +28,7 @@ const spotSeed = [
   },
   {
     address: "112 CADORNA AVE, Toronto, Ontario",
-    postalcode:  "N/A",
+    postalcode: "N/A",
     price: "$7",
     type: "Front yard",
     description: "Single",
@@ -35,7 +36,7 @@ const spotSeed = [
   },
   {
     address: "12 DACRE CRES, Toronto, Ontario",
-    postalcode:  "N/A",
+    postalcode: "N/A",
     price: "$10",
     type: "Widened Driveway",
     description: "Single",
@@ -43,7 +44,7 @@ const spotSeed = [
   },
   {
     address: "150 EARLSCOURT AVE, Toronto, Ontario",
-    postalcode:  "N/A",
+    postalcode: "N/A",
     price: "$15",
     type: "Front yard",
     description: "Single",
@@ -51,7 +52,7 @@ const spotSeed = [
   },
   {
     address: "98 FURNIVAL RD, Toronto, Ontario",
-    postalcode:  "N/A",
+    postalcode: "N/A",
     price: "$5",
     type: "Front yard",
     description: "Single",
@@ -59,7 +60,7 @@ const spotSeed = [
   },
   {
     address: "166 GAINSBOROUGH RD, Toronto, Ontario",
-    postalcode:  "N/A",
+    postalcode: "N/A",
     price: "$9",
     type: "Widened Driveway",
     description: "Single",
@@ -67,7 +68,7 @@ const spotSeed = [
   },
   {
     address: "23 HADDON ST, Toronto, Ontario",
-    postalcode:  "N/A",
+    postalcode: "N/A",
     price: "$11",
     type: "Front yard",
     description: "Single",
