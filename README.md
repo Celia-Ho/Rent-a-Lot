@@ -8,8 +8,10 @@ The Google Map API will be used to show the location of each parking lot on a ma
 
 All users will need to create an account and sign in to post a listing or rent a lot.  
 
-####See the deployed project [here](https://floating-temple-82013.herokuapp.com/)
+See the deployed project [here](https://floating-temple-82013.herokuapp.com/)
 
+
+Tools/languages used:  Heroku, React.js, MongoDB, Mongoose, Express.js, Node.js, API, User Authentication (Passport.js), JavaScript, Material-UI, Bootstrap, CSS, HTML, Git
 
 To start the project -
   1. Make sure mongo is running on localhost (enter mongod in command terminal)
