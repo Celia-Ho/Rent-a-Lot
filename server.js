@@ -13,13 +13,13 @@ var app = express();
 const PORT = process.env.PORT || 8080;
 
 // If deployed, use the deployed database. Otherwise use the local parkingspotslisting database
-// var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/parkingspotslisting";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/parkingspotslisting";
 
 // Deployed database on Heroku
-var MONGODB_URI = "mongodb://heroku_fgttlnqz:9o5srl06v87l6ut5vhsump70oc@ds231133.mlab.com:31133/heroku_fgttlnqz";
+// var MONGODB_URI = "mongodb://heroku_fgttlnqz:9o5srl06v87l6ut5vhsump70oc@ds231133.mlab.com:31133/heroku_fgttlnqz";
 
 mongoose.Promise = require('bluebird');
-mongoose.connect(MONGODB_URI, { promiseLibrary: require('bluebird')})
+mongoose.connect(process.env.MONGODB_URI || MONGODB_URI, { promiseLibrary: require('bluebird')})
     .then(() => console.log('connection succesfull'))
     .catch((err) => console.log(err));
 
