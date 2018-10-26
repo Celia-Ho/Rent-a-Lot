@@ -6,12 +6,24 @@ This app allows parking-lot owners to list their vacant parking lots for lease i
 
 The Google Map API will be used to show the location of each parking lot on a map.
 
-All users will need to create an account and sign in to post a listing or rent a lot.  
+All users will need to create an account and sign in to post a listing or rent a lot.
 
-See the deployed project [here](https://floating-temple-82013.herokuapp.com/)
+## Deployment on Heroku
+
+Check it out in live action and see the deployed project [here](https://floating-temple-82013.herokuapp.com/)
+
+Sign up for a user account or use the guest account provided here to check out the app:
+
+Email Address: who@mail.com
+
+Password: who
 
 
-Tools/languages used:  Heroku, React.js, MongoDB, Mongoose, Express.js, Node.js, API, User Authentication (Passport.js), JavaScript, Material-UI, Bootstrap, CSS, HTML, Git
+## Tools/languages used
+
+Heroku, React.js, MongoDB, Mongoose, Express.js, Node.js, API, User Authentication (Passport.js), JavaScript, Material-UI, Bootstrap, CSS, HTML, Git
+
+## Implementation
 
 To start the project -
   1. Make sure mongo is running on localhost (enter mongod in command terminal)
