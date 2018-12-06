@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import "./style.css";
+// import Payment from "../components/Payment";
+import Checkout from "../components/Checkout";
 
 
 class Spot extends Component {
@@ -46,7 +48,7 @@ class Spot extends Component {
           </p>
           <p class="lead">
             <strong>
-              <em>Price: </em>
+              <em>Price ($/hour): </em>
             </strong>&nbsp;{this.props.location.state.price}
             <hr />
           </p>
@@ -68,6 +70,13 @@ class Spot extends Component {
             </strong>&nbsp;{this.props.location.state.contact}
             <hr />
           </p>
+
+          <Checkout
+            name={'Rent-a-Lot'}
+            description={this.props.location.state.address}
+            amount={this.props.location.state.price}
+          />
+
           {this.state.isUserOwner && <Link
             className="btn btn-warning"
             to={{

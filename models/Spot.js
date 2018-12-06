@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 var SpotSchema = new mongoose.Schema({
     address: String,
     postalcode: String,
-    price: String,
+    price: Number,
     type: String,
     description: String,
     contact: String,

@@ -17,7 +17,7 @@ const spotSeed = [
   {
     address: "32 ACACIA RD, Toronto, Ontario",
     postalcode: "N/A",
-    price: "$10",
+    price: 10,
     type: "Widened Driveway",
     description: "Single",
     contact: "robo3t@mail.com"
@@ -25,7 +25,7 @@ const spotSeed = [
   {
     address: "60 BABY POINT RD, Toronto, Ontario",
     postalcode: "N/A",
-    price: "$13",
+    price: 13,
     type: "Front yard",
     description: "Single",
     contact: "mongod@mail.com"
@@ -33,7 +33,7 @@ const spotSeed = [
   {
     address: "112 CADORNA AVE, Toronto, Ontario",
     postalcode: "N/A",
-    price: "$7",
+    price: 7,
     type: "Front yard",
     description: "Single",
     contact: "javascript@mail.com"
@@ -41,7 +41,7 @@ const spotSeed = [
   {
     address: "12 DACRE CRES, Toronto, Ontario",
     postalcode: "N/A",
-    price: "$10",
+    price: 10,
     type: "Widened Driveway",
     description: "Single",
     contact: "html@mail.com"
@@ -49,7 +49,7 @@ const spotSeed = [
   {
     address: "150 EARLSCOURT AVE, Toronto, Ontario",
     postalcode: "N/A",
-    price: "$15",
+    price: 15,
     type: "Front yard",
     description: "Single",
     contact: "css@mail.com"
@@ -57,7 +57,7 @@ const spotSeed = [
   {
     address: "98 FURNIVAL RD, Toronto, Ontario",
     postalcode: "N/A",
-    price: "$5",
+    price: 5,
     type: "Front yard",
     description: "Single",
     contact: "mern@mail.com"
@@ -65,7 +65,7 @@ const spotSeed = [
   {
     address: "166 GAINSBOROUGH RD, Toronto, Ontario",
     postalcode: "N/A",
-    price: "$9",
+    price: 9,
     type: "Widened Driveway",
     description: "Single",
     contact: "crud@mail.com"
@@ -73,7 +73,7 @@ const spotSeed = [
   {
     address: "23 HADDON ST, Toronto, Ontario",
     postalcode: "N/A",
-    price: "$11",
+    price: 11,
     type: "Front yard",
     description: "Single",
     contact: "java@mail.com"

@@ -12,7 +12,8 @@
     "react-geocode": "^0.1.2",
     "react-google-maps": "^9.4.5",
     "react-router-dom": "^4.1.2",
-    "react-scripts": "1.0.14"
+    "react-scripts": "1.0.14",
+    "react-stripe-checkout": "^2.6.3"
   },
   "devDependencies": {
     "bootstrap": "^4.1.1"

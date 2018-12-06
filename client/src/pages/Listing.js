@@ -67,7 +67,7 @@ class Listing extends Component {
         //TODO:  Fix a href url
         '<h6 id="firstHeading" class="firstHeading"><a href="#">' + `${mySpot.address}` + '</a>' + '</h6>' +
         '<div id="bodyContent">' +
-        '<h6>Price: <b>' + `${mySpot.price}` + '</b></h6>' +
+        '<h6>Price ($/hour): <b>' + `${mySpot.price}` + '</b></h6>' +
         '<h6>Contact Info: <b>' + `${mySpot.contact}` + '</b></h6>' +
         '<p>Type: ' + `${mySpot.type}` + '</p>' +
         '<p>Description: ' + `${mySpot.description}` + '</p>' +
